@@ -1,0 +1,196 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto&family=Squada+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Squada+One&display=swap');
+:root{
+    --btn-bg:#FF7722;
+    --text-color:#FF7722;
+    --normal-1-text-family:'Squada One';
+    --heading-font-family:'Squada One';
+    --p--text-font-family: 'Roboto';
+}
+.shop-btn{
+    width: 100%;
+    max-width: 207px;
+    height: 56.5px;
+    outline: none;
+    border: none;
+    background: #FF7722;
+    border-radius: 60px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: var(--p--text-font-family);
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 21px;
+}
+.shop-btn img{
+    margin-left: 10px;
+    margin-left: 35px;
+    width: 47.5px;
+    height: 47.5px;
+}
+header{
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    z-index: 333;
+    transition: 0.2s;
+}
+.navbar-brand img{
+    width: 309.85px;
+height: 60.9px;
+object-fit: contain;
+}
+.nav-link{
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+font-family: var(--normal-1-text-family);
+color: white;
+margin: 6px;
+padding: 6px;
+}
+.nav-link:hover{
+    color: black;
+}
+.nav-link:focus{
+    color: white;
+}
+.form-style{
+    background-color: white;
+    width: 341px;
+    padding: 1px;
+    height: 48.36px;
+    border-radius: 50px;
+}
+.form-style input
+{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.form-style input:focus{
+    border-radius: 50px;
+    outline: none;
+    box-shadow: none;
+}
+.form-style .input-group-text{
+    background-color: transparent;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+}
+.form-style .input-group-text img{
+    width: 100%;
+    object-fit: contain;
+}
+::placeholder{
+     font-weight: 300;
+font-size: 17px;
+line-height: 21px;
+    color: #A3A3A3 !important;
+text-transform: capitalize;
+opacity: 20%;
+font-family: var(--p--text-font-family);
+}
+.boxs .img-style{
+    margin-left:20px;
+}
+.boxs .img-style .img-1{
+    width: 31px;
+    object-fit: contain;
+    height: 31px;
+    margin-left: 1px;
+}
+.boxs .menu img{
+    width: 55.76px;
+    height: 55.76px;
+    object-fit: contain;
+    margin-left: 45px;
+}
+.boxs .menu img:hover{
+    cursor: pointer;
+}
+/* header close  */
+.carousel-control {
+    width: 70px;
+    height: 69px;
+    background-color: white;
+    z-index: 333;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+.carousel-control:hover {
+    background-color: var(--btn-bg);
+}
+.carousel-control:hover .fa-angle-left{
+    color: white;
+}
+.carousel-control .fa-angle-left{
+    color: black;
+    font-size: 28px;
+    line-height:72px;
+    transition: 0.2s;
+}
+.carousel-control .fa-chevron-right{
+    color: black;
+    font-size: 26px;
+    line-height:72px;
+    transition: 0.2s;
+}
+.carousel-control :hover.fa-chevron-right:hover{
+    color: white;
+}
+.carousel-caption{
+    padding-bottom: 270px;
+    text-align: left;
+}
+.carousel-caption h5{
+font-weight: 400;
+font-size: 100px;
+line-height: 100px;
+text-transform: uppercase;
+font-family: 'Squada One';
+}
+.carousel-caption p{
+font-weight: 500;
+font-size:35px;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+max-width:450px;
+width: 100%;
+line-height: 55px;
+font-family: var(--p--text-font-family);
+}
+    /* slider close  */
+    .our-brands{
+        padding:60px 0px 50px 0px;
+        background-image: url("../images/bg-1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+       min-height: 1140px;
+}
+    .our-brands .text-box h2{
+        font-weight: 400;
+        font-size:54px;
+        line-height: 64px;
+        text-transform: uppercase;
+        font-family: 'Squada One';
+        color: #000000;
+    }
+    .our-brands .style-box{
+        width: 264.19px;
+        height: 142px;
+        background: #FFFFFF;
+        border: 3px solid #000000;
+        border-radius: 20px;
+        padding: 10px;
+    }
+     .our-brands .style-box .img img{
+        width: 219.19px;
+        height: 121px;
+        object-fit: contain;
+    }
